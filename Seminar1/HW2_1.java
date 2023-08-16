@@ -4,7 +4,7 @@
 
 
 
-package lesson1;
+package Seminar1;
 
 public class HW2_1 {
     

@@ -1,4 +1,4 @@
-package lesson1;
+package Seminar1;
 
 public class HW3_1 {
 

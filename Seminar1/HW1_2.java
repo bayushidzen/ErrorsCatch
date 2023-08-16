@@ -1,4 +1,4 @@
-package lesson1;
+package Seminar1;
 
 public class HW1_2 {
     // public static void main(String[] args) {
@@ -15,5 +15,6 @@ public class HW1_2 {
             int a1 = 5;
             int a2 = 0;
             float result = a1/a2;
+            System.out.println(result);
         }
 }

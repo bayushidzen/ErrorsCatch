@@ -6,10 +6,9 @@ public class HW2_4 {
         String userString = null;
         boolean check = true;
         do{
-            try{
-                Scanner in = new Scanner(System.in);
+            try(Scanner input = new Scanner(System.in)){
                 System.out.print("Введите строку: ");
-                userString =  in.nextLine();
+                userString =  input.nextLine();
                 if(Objects.equals(userString, "")){
                     throw new RuntimeException();
                 }

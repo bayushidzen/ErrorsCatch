@@ -1,4 +1,4 @@
-package lesson1;
+package Seminar1;
 
 public class HW1_3 {
     // public static void main(String[] args) {
@@ -19,5 +19,6 @@ public class HW1_3 {
     public static void main(String[] args) {
         String str = "fdghdfg";
         Integer num = Integer.valueOf(str);
+        System.out.println(num);
     }
 }

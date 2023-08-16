@@ -1,5 +1,3 @@
-import java.io.FileNotFoundException;
-
 public class HW2_3 {
     public static void main(String[] args) {
         try {

@@ -7,10 +7,9 @@ public class HW2_1 {
         float num = 0;
         boolean check = true;
         do{
-            try{
-                Scanner in = new Scanner(System.in);
+            try(Scanner input = new Scanner(System.in)){
                 System.out.print("Введите дробное число, знак разделитель запятая: ");
-                num = in.nextFloat();
+                num = input.nextFloat();
                 check = false;
             }catch(InputMismatchException e){
                 System.out.println("Введенные данные не являются дробным числом, повторите ввод.");
